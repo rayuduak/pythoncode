@@ -67,3 +67,4 @@ def get_large_audio_transcription_on_silence(path):
 #print("\nFull text:", get_large_audio_transcription_on_silence(path))
 with open("transcribedText.txt", "w") as text_file:
     text_file.write(get_large_audio_transcription_on_silence(path))
+print("Text file created")
