@@ -8,6 +8,7 @@ import os
 from pydub import AudioSegment
 from pydub.silence import split_on_silence
 
+#Enter the path of the ffmpeg.exe file. I tested on Windows and not in mac or linux.
 AudioSegment.converter = "C:\\ffmpeg\\ffmpeg.exe"
 AudioSegment.ffmpeg = "C:\\ffmpeg\\ffmpeg.exe"
 AudioSegment.ffprobe ="C:\\ffmpeg\\ffprobe.exe"
