@@ -84,7 +84,7 @@ def find_duplicates(arr):
 # 6. ANAGRAM CHECK (Basic-Intermediate)
 def is_anagram(s1, s2):
     """
-    Check if two strings are anagrams
+    Check if two strings are anagrams.  word or phrase formed by rearranging the letters of another word or phrase
     Time Complexity: O(n log n), Space Complexity: O(1)
     """
     # Remove spaces and convert to lowercase
